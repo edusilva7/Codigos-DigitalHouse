@@ -1,0 +1,27 @@
+package PortoSeguro1;
+
+import java.util.Scanner;
+
+public class Exercicio {
+
+public static void main(String[] args) {
+// TODO Auto-generated method stub
+
+String nome; // Para nomes
+int idade = 38; // Para números
+float altura; // Posso usar float ou Double
+
+Scanner leia = new Scanner(System.in); // Sempre faço isso para começar a ler meus códigos
+
+System.out.println("Olá Mundo!");
+
+System.out.println("\n\tEntre com o primeiro nome: ");
+nome = leia.nextLine(); // ( Uso "nextline quando for para ler "String"
+System.out.println("\nEntre com sua altura: ");
+altura = leia.nextFloat();
+
+System.out.println("\nMeu nome é: "+nome+" eu tenho: "+idade+" ano(s) e minha altura é: "+altura);
+
+System.out.printf("\nMeu nome é: %s e eu tenho: %d ano(s) e a minha altura é: %2.2f",nome, idade, altura);
+
+coloquei um nome para testar
